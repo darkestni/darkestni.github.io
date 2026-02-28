@@ -4,5 +4,26 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+## 关于我
+
+你好！欢迎来到我的学习笔记博客 👋
+
+我是一名计算机专业的学生，正在整理和分享我的课程学习笔记。
+
+## 博客内容
+
+这个博客主要记录了以下课程的学习资料：
+
+- **操作系统** - 进程管理、内存管理、文件系统等
+- **软件工程** - 软件过程、需求工程、版本控制等
+- **数据挖掘** - Python基础、数据处理、机器学习等
+
+## 联系方式
+
+- GitHub: [@darkestni](https://github.com/darkestni)
+- Email: 12312606@mail.sustech.edu
+
+---
+
+> 本博客使用 [Jekyll](https://jekyllrb.com/) 和 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题构建。
 {: .prompt-tip }
