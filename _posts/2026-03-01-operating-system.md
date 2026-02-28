@@ -2,7 +2,7 @@
 title: 操作系统
 date: 2026-03-01 00:00:00 +0800
 categories: [操作系统]
-tags: [课程笔记，Linux, 系统编程]
+tags: [课程笔记, Linux, 系统编程]
 description: 操作系统课程学习笔记和资料
 ---
 
