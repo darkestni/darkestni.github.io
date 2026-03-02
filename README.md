@@ -1,43 +1,66 @@
-# Chirpy Starter
+# darkestni.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+个人博客网站 - 基于 Jekyll Chirpy 主题
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 项目简介
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+这是一个使用 Jekyll 和 Chirpy 主题构建的静态博客网站，托管在 GitHub Pages 上。
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## 目录结构
 
-```shell
+```
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _config.yml          # 站点配置文件
+├── _tabs/               # 标签页
+├── _posts/              # 博客文章
+├── _data/               # 数据文件
+├── _plugins/            # Jekyll 插件
+├── assets/              # 静态资源 (CSS, JS, 图片)
+├── tools/               # 工具脚本
+└── index.html           # 首页
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## 技术栈
 
-## Usage
+- Jekyll
+- Chirpy 主题
+- GitHub Pages
+- Liquid 模板引擎
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 本地开发
 
-## Contributing
+### 环境要求
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+- Ruby 2.7+
+- Bundler
 
-## License
+### 安装和运行
 
-This work is published under [MIT][mit] License.
+```bash
+# 安装依赖
+bundle install
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+# 本地预览
+bundle exec jekyll serve
+
+# 访问 http://localhost:4000
+```
+
+## 部署
+
+本博客使用 GitHub Pages 自动部署，推送到 `main` 分支后会自动构建和发布。
+
+## 自定义
+
+- 修改 `_config.yml` 配置站点信息
+- 在 `_posts/` 目录下添加 Markdown 格式的文章
+- 在 `_tabs/` 目录下自定义标签页
+
+## 许可证
+
+MIT License
+
+## 链接
+
+- [主题文档](https://github.com/cotes2020/jekyll-theme-chirpy)
+- [在线访问](https://darkestni.github.io)
