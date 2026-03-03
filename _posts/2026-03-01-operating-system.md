@@ -8,6 +8,14 @@ description: 操作系统课程学习笔记和资料
 
 ## 课程资料
 
+### 复习资料
+
+| 资料名称 | 下载 |
+|----------|------|
+| 期中考试复习资料 | [下载 PDF](/assets/os/Operating%20Systems%20Midterm%20Review%20Notes.pdf) |
+
+### 课程讲义
+
 | 讲次 | 主题 | PDF |
 |------|------|-----|
 | L01 | 操作系统简介 | [下载](/assets/os/L01%20Intro%20to%20OS.pdf) |
